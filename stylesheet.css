@@ -1,0 +1,5 @@
+@font-face {
+    font-family: "Trajan";
+    src: url(Trajan\ Pro.ttf) format("truetype");
+  }
+  h1 { font-family: "Trajan", sans-serif }
