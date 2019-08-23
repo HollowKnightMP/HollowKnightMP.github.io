@@ -3,3 +3,8 @@
     src: url(Trajan\ Pro.ttf) format("truetype");
   }
   h1 { font-family: "Trajan", sans-serif }
+
+  body {
+      background-image: url("cliffs.jpg");
+      background-size: 100%;
+  }
