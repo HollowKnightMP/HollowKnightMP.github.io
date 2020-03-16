@@ -1,34 +1,17 @@
 @font-face {
     font-family: "Trajan";
-    src: url(fonts/Trajan\ Pro.ttf) format("truetype");
+    src: url("fonts/TrajanPro.ttf") format("truetype");
 }
-h1 { font-family: "Trajan", sans-serif }
-
-body {
-    background-image: url("images/cliffs.jpg");
+html, body {
+    margin:0;
+    background-image: url("images/enemies.jpg");
     background-size: 100%;
 }
 
-button {
-    border: none;
-    background-color: gray;
-    transition-duration: 0.4s;
-}
-
-button:hover {
-    border: none;
-    background-color: rgb(99, 99, 99);
-}
-
-h1 {
-    color: white;
-    font-weight: lighter;
-}
-
-.header-box {
+.header-banner {
     background-color: black;
-    height: 70px;
-    line-height: 70px;
-    padding-left: 20px;
-    vertical-align: middle;
+    color: white;
+    height: 370px;
+    text-align: center;
+    font-family: "Trajan", sans-serif;
 }
